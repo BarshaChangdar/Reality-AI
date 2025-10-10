@@ -64,9 +64,8 @@ Key goals include:
 | Version Control | Git, GitHub                   |
 
 ---
-
 ## Repository Structure
-
+```
 Reality-AI/
 ├── Models/
 │ ├── encoder.pkl # Label encoder for categorical features
@@ -85,6 +84,8 @@ Reality-AI/
 │ ├── (datasets used for training)
 │
 └── README.md
+```
+
 
 
 ---
