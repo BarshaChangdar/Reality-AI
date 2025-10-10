@@ -114,30 +114,36 @@ git clone https://github.com/BarshaChangdar/Reality-AI.git
 cd Reality-AI
 
 
-Install dependencies
+## Installation
 
+### 1. Clone the repository
+
+git clone https://github.com/BarshaChangdar/Reality-AI.git
+cd Reality-AI
+2. Install dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
-
-Run the Streamlit dashboard
-
+3. Run the Streamlit dashboard
+bash
+Copy code
 streamlit run Notebooks/Streamlit_app.ipynb
-
-
-Alternatively, open and run notebooks directly in Google Colab or Jupyter
+4. Alternatively
+You can open and run the notebooks directly in Google Colab or Jupyter Notebook to explore results.
 
 Models
 File	Description
 encoder.pkl	Label encoder for categorical features
 prophet_models.pkl	Prophet forecasting models for multiple states
 bagging_model.joblib (optional)	ML pipeline for price prediction
-Results
 
+Results
 Forecasted property prices and trends with confidence intervals
 
 Visualized multi-state comparisons and historical data
 
 Integrated ML models with time series for real-world insights
+
 
 ## Author
 **[Barsha Changdar](https://github.com/BarshaChangdar)**  
