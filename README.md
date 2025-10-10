@@ -109,7 +109,7 @@ Reality-AI/
 ## Installation
 
 1. Clone the repository  
-```bash
+
 git clone https://github.com/BarshaChangdar/Reality-AI.git
 cd Reality-AI
 
@@ -151,4 +151,4 @@ Thanks to my mentor Aabid MK
  for his invaluable support,
 and to Infosys for providing the opportunity to work on real-world forecasting and analytics.
 
-<p align="center"> Designed and developed by Barsha Changdar </p> ```
+<p align="center"> Designed and developed by Barsha Changdar </p> 
