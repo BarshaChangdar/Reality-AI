@@ -1,6 +1,5 @@
 # RealityAI — Real Estate Forecasting Project
 
-
 <p align="center">
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Built%20with-Python-3776AB?logo=python&logoColor=white" alt="Python Badge" />
@@ -13,6 +12,9 @@
   </a>
   <a href="https://streamlit.io/">
     <img src="https://img.shields.io/badge/App-Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit Badge" />
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" />
   </a>
 </p>
 
@@ -29,6 +31,7 @@
 - [Results](#results)
 - [Author](#author)
 - [Acknowledgement](#acknowledgement)
+- [License](#license)
 
 ---
 
@@ -64,6 +67,7 @@ Key goals include:
 | Version Control | Git, GitHub                   |
 
 ---
+
 ## Repository Structure
 ```
 Reality-AI/
@@ -84,36 +88,27 @@ Reality-AI/
 │ ├── (datasets used for training)
 │
 └── README.md
+
 ```
-
-
 
 ---
 
 ## Features
-**Property Price Prediction**  
+** Property Price Prediction**  
 - Predict prices using city, location, BHK, total area, price per sqft, bathrooms, and balconies  
 
-**Time Series Forecasting**  
+** Time Series Forecasting**  
 - Generate forecasts with confidence intervals for each state using Prophet  
 - Compare forecasts across regions  
 - Analyze historical trends and statistics  
 
-**Visualization Dashboard**  
+** Visualization Dashboard**  
 - Interactive and responsive Streamlit app to explore data and predictions  
 
-**Data Processing Pipeline**  
+** Data Processing Pipeline**  
 - Includes preprocessing and encoding to support modeling  
 
 ---
-
-## Installation
-
-1. Clone the repository  
-
-git clone https://github.com/BarshaChangdar/Reality-AI.git
-cd Reality-AI
-
 
 ## Installation
 
@@ -145,17 +140,41 @@ Visualized multi-state comparisons and historical data
 
 Integrated ML models with time series for real-world insights
 
+Author
+Barsha Changdar
+Infosys RealtyAI Internship (Aug 2025)
 
-## Author
-**[Barsha Changdar](https://github.com/BarshaChangdar)**  
-Infosys RealtyAI Internship (Aug 2025)  
-
-Mentor: **[Aabid MK](https://github.com/AabidMK)**
+Mentor: Aabid MK
 
 Acknowledgement
-
-Thanks to my mentor Aabid MK
- for his invaluable support,
+Special thanks to my mentor Aabid MK for his invaluable guidance and continuous support,
 and to Infosys for providing the opportunity to work on real-world forecasting and analytics.
 
-<p align="center"> Designed and developed by Barsha Changdar </p> 
+<p align="center">Designed and developed by <b>Barsha Changdar</b></p>
+License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+sql
+Copy code
+MIT License
+
+Copyright (c) 2025 Aabid M K
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+<p align="center">© 2025 RealityAI — All rights reserved.</p> 
